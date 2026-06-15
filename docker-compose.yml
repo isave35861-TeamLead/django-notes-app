@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   nginx:
-    name: "trainwithshubham/notes-app:latest"
+    image: "trainwithshubham/notes-app:latest"   # ✅ use image, not name
     container_name: "nginx_cont"
     ports:
       - "80:80"
